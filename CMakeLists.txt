@@ -1,0 +1,7 @@
+CMAKE_MINIMUM_REQUIRED(VERSION 3.16)
+
+PROJECT(easter_cal)
+
+include_directories(include)
+ADD_SUBDIRECTORY(lib)
+ADD_SUBDIRECTORY(cli)
